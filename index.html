@@ -21,3 +21,50 @@
        
     </style>
 </head>
+<body>
+    <header>
+        <!-- nav section -->
+        <nav class="bg-base-100 shadow-md">
+          <div class="navbar container mx-auto px-4 flex justify-between">
+              <!-- Logo on the Left -->
+              <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl">
+                      <img src="assets/logo-header.png" alt="Logo" class="h-8">
+                  </a>
+              </div>
+              
+              <!-- Hamburger Menu on the Right for Mobile -->
+              <div class="navbar-end lg:hidden">
+                  <div class="dropdown">
+                      <button tabindex="0" class="btn btn-ghost" aria-label="Menu">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                      </button>
+                      <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow hidden">
+                          <li><a href="#">Product</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Contact us</a></li>
+                      </ul>
+                  </div>
+              </div>
+      
+              <!-- Navbar Center (Hidden on Mobile) -->
+              <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact us</a></li>
+                  </ul>
+              </div>
+      
+              <!-- Navbar End (Hidden on Mobile) -->
+              <div class="navbar-end hidden lg:flex">
+                  <img class="w-5 mx-2" src="assets/search.png" alt="Search">
+                  <img class="w-5 mx-2" src="assets/shopping-cart.png" alt="Cart">
+                  <a class="btn mx-2">Login</a>
+                  <a class="btn btn-success text-white mx-2">Register</a>
+              </div>
+          </div>
+      </nav>
+      
